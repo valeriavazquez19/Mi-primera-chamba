@@ -1,23 +1,31 @@
 body{
     /*Comentario*/
     /*Fondo*/
-    background-color:darksalmon;
+    background-color:#f7f3cf;
+    margin: 10px;
+    padding: 0;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
 }
     /*Color de letra*/
 h1{
-    color: azure;
+    color: #176585;
+}
+h2{
+    color: #176585;
 }
     /*Tamaño de letra*/
 p{
     font-size: 20px;
 }
-h3{
-    color: bisque;
+#Animalitos{
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /*Selector de clase*/
 .genero{
     color: black;
 }
-#imagenperritos{
-    border-radius: 200px;
-}
+
